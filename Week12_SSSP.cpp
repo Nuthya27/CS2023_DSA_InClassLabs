@@ -56,7 +56,7 @@ void dijkstra(const vector<vector<int>>& graph, int source) {
 
     for (int i = 0; i < numNodes; ++i) {
         cout << "Node " << i << ": ";
-        cout << "Distance = " << distances[i] << "   Path = ";
+        cout << "Time = " << distances[i] << "   Path = ";
         printPath(parent, i);
         cout << endl;
     }
